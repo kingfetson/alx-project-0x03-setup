@@ -1,7 +1,6 @@
-// components/layouts/Layout.tsx
-import { ReactNode } from 'react';
-import Footer from './Footer';
-import Header from './Header';
+import { ReactNode } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 
 interface LayoutProps {
   children: ReactNode;
@@ -11,7 +10,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className="pt-24">{children}</main>
       <Footer />
     </>
   );

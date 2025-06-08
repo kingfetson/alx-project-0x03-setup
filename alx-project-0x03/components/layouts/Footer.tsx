@@ -1,4 +1,3 @@
-// components/layouts/Footer.tsx
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
@@ -37,28 +36,13 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
           <div className="flex space-x-4">
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition duration-300"
-            >
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">
               <FaFacebook size={24} />
             </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition duration-300"
-            >
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">
               <FaTwitter size={24} />
             </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white transition duration-300"
-            >
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">
               <FaInstagram size={24} />
             </a>
           </div>
