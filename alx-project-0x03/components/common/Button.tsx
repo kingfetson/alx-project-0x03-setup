@@ -1,5 +1,5 @@
 import { ButtonProps } from '../../interface'
-
+import { FaHome } from 'react-icons/fa';
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
   const backgroundColorClass = buttonBackgroundColor
     ? {

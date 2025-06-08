@@ -1,6 +1,7 @@
 import { PageRouteProps } from "../interface";
 import Button from "../components/common/Button";
 import { useRouter } from "next/router";
+import { FaHome } from 'react-icons/fa';
 
 export default function Home() {
   const router = useRouter()
